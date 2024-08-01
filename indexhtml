@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="五金加工, 系統櫃, 定制櫃子, 金屬加工" />
+  <meta name="description" content="提供高品質的五金加工和系統櫃定制服務，專注於精確加工和高性能材料，滿足各種需求。" />
+  <meta name="author" content="ALADA,aladar,萬晨,萬晨實業" />
+  
+  <link rel="shortcut icon" href="images/android-chrome-512x512.png" type="">
+
+  <title>專業五金加工和系統櫃定制 | 萬晨實業</title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <!-- nice select  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+  <link href="css/aladar.css" rel="stylesheet" />
+<style>
+      body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* 初始状态防止滚动条出现 */
+    background: #fff; /* 背景色 */
+    transition: overflow 0s 3s; /* 设置 overflow 在 3 秒后改变 */
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* 居中对齐 */
+    opacity: 0; /* 初始状态设为透明 */
+    transition: opacity 1s ease-in-out; /* 设置过渡效果 */
+    z-index: 9999;
+    width: 200px; /* 根据需要调整宽度 */
+    height: 200px; /* 根据需要调整高度 */
+}
+
+#logo img {
+    width: 100%; /* 确保图片填充 #logo 容器 */
+    height: auto; /* 保持图片比例 */
+}
+
+#contentlogo {
+    opacity: 0;
+    transition: opacity 1s ease-in-out; /* 设置过渡效果 */
+    visibility: hidden; /* 初始状态设为隐藏 */
+}
+
+</style>
+</head>
+
+<body>
+<!--<div class="loader-wrapper" id="logo">-->
+<div id="logo">
+  <!-- <div class="loader" > -->
+    <img src="images/aladar.png" alt="logo" >
+  </div>
+</div>
+<div id="contentlogo" class="contentlogo hidden">
+ <div id="heading_container" class="heading_center">
+ </div>
+  <div class="hero_area">
+ 
+    <div class="bg-box">
+      <img src="images/furniture01.jpg" alt="">
+    </div>
+    
+	<!-- header section strats -->
+    <header class="header_section">
+	
+	
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="" >
+            <span>
+              aladar
+            </span>
+          </a>
+		  
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+		  
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  mx-auto ">
+              <li class="nav-item">
+                <a class="nav-link" data-toggle href="#home_section" onclick="smoothScroll('#home_section')">首頁 <span class="sr-only">(current)</span></a>
+              </li>
+			  <li class="nav-item">
+                <a class="nav-link"  data-toggle href="#service" onclick="smoothScroll('#service')">服務項目 <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle href="#product_section" onclick="smoothScroll('#product_section')">產品目錄</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle href="#about_section" onclick="smoothScroll('#about_section')">公司介紹</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle  href="#contact_section" onclick="smoothScroll('#contact_section')">聯絡資訊</a>
+              </li>
+            </ul>
+          </div>
+		  
+        </nav>
+      </div>
+    </header>
+	
+	
+    <!-- end header section -->
+    <!-- slider section -->
+	
+	<div id="home_section"></div>
+
+<section class="slider_section">
+  <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+    <!-- 控制按鈕移到每個幻燈片的內容之前 -->
+    <div class="container">
+      <ol class="carousel-indicators">
+        <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
+        <li data-target="#customCarousel1" data-slide-to="1" ></li>
+        <li data-target="#customCarousel1" data-slide-to="2" ></li>
+      </ol>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7 col-lg-6">
+              <div class="detail-box">
+                <div class="bordered-text">
+				<h1>
+                <div id="newsTitle" class="newsTitle"></div>
+				</h1>
+                  <div id="latestBlogPos2">
+                    <div id="newsContent" class="newsContent"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7 col-lg-6">
+              <div class="detail-box">
+                <div class="bordered-text">
+                  <h1>
+                    <div id="specificTitle2" class="specificTitle2"></div>
+                  </h1>
+                  <div id="latestBlogPos2">
+                    <div id="specificContent2" class="specificContent2"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7 col-lg-6">
+              <div class="detail-box">
+                <div class="bordered-text">
+                  <h1>
+                    <div id="specificTitle3" class="specificTitle3"></div>
+                  </h1>
+                  <div id="latestBlogPost3">
+                    <div id="specificContent3" class="specificContent3"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- end slider section -->
+  </div>
+
+
+
+  <!-- offer section -->
+
+ 
+  <!-- Hardware section -->
+
+ 
+  <section class="Hardware_section layout_padding-bottom">
+
+    <div class="container">
+      <div class="heading_container heading_center" id="service" >
+	  
+        <h2>
+          服務項目
+        </h2>
+		
+      </div>
+
+      <div class="filters-content">
+        <div class="row grid">
+          <div class="col-sm-6 col-lg-4 all Sliderail">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images\pexels-jorgeural-9131071.jpg" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    五金批發
+                  </h5>
+                  <p>
+                    各項五金商品批發
+                  </p>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all Hinge">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/pexels-fotios-photos-115558.jpg" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    加工
+                  </h5>
+                  <p>
+                    五金加工
+                  </p>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all Sliderail">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/Slide rail/A2102-20-二.jpg" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+				  3
+                  </h5>
+                  <p>
+                   3 
+                  </p>
+      
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all Lock">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/Lock/D01-4-1-一.jpg" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    4
+                  </h5>
+                  <p>
+                    4
+                  </p>
+   
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all handle">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/handle/C161-369-096-3-一.jpg" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    5
+                  </h5>
+                  <p>
+                    5
+                  </p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all Sliderail">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/Slide rail/A2102-二.jpg" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    6
+                  </h5>
+                  <p>
+                    6
+                  </p>
+  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all Hinge">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/Hinge/B483A-6-二.jpg" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                  7
+                  </h5>
+                  <p>
+                    7
+                  </p>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all Hinge">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/Hinge/B001-063-040-一.jpg" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    8
+                  </h5>
+                  <p>
+                  8
+                  </p>
+            
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all Lock">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/Lock/D507-16838M06-一.jpg" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                 9
+                  </h5>
+                  <p>
+                   9
+                  </p>
+                  
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </div>
+	     
+     <!--<div class="btn-box"></div>-->
+	  </div>
+	</div>
+  </section>
+  <div class="heading_container heading_center" id="product_section" > 
+	  
+        <h2>
+          產品目錄
+        </h2>
+		<iframe src="https://online.fliphtml5.com/cvjjb/kdky/" frameborder="0"></iframe>
+  </div>
+ 
+  <!-- end Hardware section -->
+
+  <!-- about section -->
+
+ <div id="about_section" >
+  <section class="about_section layout_padding"  >
+    <div class="container  ">
+
+      <div class="row">
+        <div class="col-md-6 ">
+          <div class="img-box">
+		    
+            <img src="images/hallway01.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                公司介紹
+              </h2>
+            </div>
+            <p>
+              公司創立於民國95年<br>
+			  經營項目：裝潢五金經銷批發商, 五金零售
+            </p>
+           <!--<a href="">
+              Read More
+            </a>-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
+  <!-- end about section -->
+  <!-- book section -->
+  <div id="contact_section" class="container" ></div>
+
+  <!-- end book section -->
+  <!-- client section -->
+  <!-- end client section -->
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 footer-col">
+          <div class="footer_contact">
+            <h4>
+               聯絡資訊
+            </h4>
+            <div class="contact_link_box">
+              <a href="https://reurl.cc/2YpxK9" target="_blank">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>
+                  地址 248021新北市五股區五權三路54號
+                </span>
+              </a>
+              <a >
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  電話 02-29022082
+                </span>
+              </a>
+              <a href="mailto:aladar19900217@gmail.com">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                  信箱  aladar19900217@gmail.com
+                </span>
+              </a> 
+			  <a href="https://aladar19900217.github.io/">
+               <i class="fa-solid fa-globe" aria-hidden="true"></i>
+                <span>
+                  官網  https://aladar19900217.github.io/
+                </span>
+              </a>
+			  <div class="footer_social">
+             <!--<a href="">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-pinterest" aria-hidden="true"></i>
+              </a>-->
+			  <button onclick="openImagePopup2()"><!--<i class="fa-brands fa-line" aria-hidden="true"></i>--><div class="image-container">
+      <img src="images/webQR.png" alt="官網QR">
+    </div></button><!-- <a href=""> 
+                
+              </a>-->
+            </div>
+            </div>
+			
+          </div>
+        </div>
+        <div class="col-md-4 footer-col">
+          <div class="footer_detail">
+            <a  class="footer-logo">
+              線上服務
+            </a>
+            <p>
+            LINE ID @934mcllz
+            </p>
+            <div class="footer_social">
+             <!--<a href="">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-pinterest" aria-hidden="true"></i>
+              </a>-->
+			  <button onclick="openImagePopup()"><!--<i class="fa-brands fa-line" aria-hidden="true"></i>--><div class="image-container">
+      <img src="https://qr-official.line.me/gs/M_934mcllz_BW.png?oat_content=qr" alt="線上圖片">
+    </div></button><!-- <a href=""> 
+                
+              </a>-->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 footer-col">
+          <h4>
+            營業時間
+          </h4>
+          <p>
+            周一至周五
+          </p>
+          <p>
+            8:00 Am - 6:00 Pm
+          </p>
+        </div>
+      </div>
+      <div class="footer-info">
+        <p>
+          &copy; <span id="displayYear"></span> All Rights Reserved By
+          <a href="https://html.design/">Free Html Templates</a><br><br>
+          &copy; <span id="displayYear"></span> Distributed By
+          <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  </div>
+  <!-- footer section -->
+  <!-- 引入 jQuery -->
+
+  <!--fontawesome-->
+  <script src="https://kit.fontawesome.com/e03c2dd1da.js" crossorigin="anonymous"></script>
+  <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- owl slider -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <!-- isotope js -->
+  <script src="https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js"></script>
+  <!-- nice select -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+  <!-- End Google Map -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="js/aladar.js"></script>
+<script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const logo = document.getElementById('logo');
+            const content = document.getElementById('contentlogo');
+            const body = document.body;
+
+            // 1秒后淡入 logo
+            setTimeout(() => {
+                logo.style.opacity = '1';
+                
+                // 1秒后开始淡出 logo
+                setTimeout(() => {
+                    logo.style.opacity = '0';
+                    
+                    // 在 logo 完全淡出后显示内容
+                    setTimeout(() => {
+                        logo.style.display = 'none'; // 隐藏 logo
+                        content.style.visibility = 'visible'; // 显示内容
+                        content.style.opacity = '1'; // 淡入内容
+                        body.style.overflow = 'auto'; // 3秒后允许滚动
+                    }, 1250); // 这里的时间要和 logo 的淡出时间一致
+                }, 1000); // 这里的时间是 logo 淡入后的持续时间
+            }, 750); // 这里的时间是初始等待时间
+
+            // 3秒后显示滚动条
+            setTimeout(() => {
+                body.style.overflow = 'auto'; // 显示滚动条
+            }, 3000); // 3秒
+        });
+    </script>
+
+
+</script>
+</body>
+
+</html>
